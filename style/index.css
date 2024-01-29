@@ -1,0 +1,35 @@
+img {
+    background-size: cover;
+    background-position: top center;
+    width: 200px;
+    height: 300px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.img {
+    border: 1px solid red;
+    width: 220px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(221, 59, 59, 0.993);
+    backdrop-filter: blur(10px);
+color: #000000;
+}
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
